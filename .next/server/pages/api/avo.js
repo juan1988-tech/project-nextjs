@@ -1,178 +1,45 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 614;
-exports.ids = [614];
+exports.id = "pages/api/avo";
+exports.ids = ["pages/api/avo"];
 exports.modules = {
 
-/***/ 316:
+/***/ "(api)/./database/data.js":
+/*!**************************!*\
+  !*** ./database/data.js ***!
+  \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst data = {\n    \"2zd33b8c\": {\n        name: \"Maluma Hass Avocado\",\n        id: \"2zd33b8c\",\n        sku: \"NUR72KCM\",\n        price: 1.15,\n        image: \"/images/maluma.jpg\",\n        attributes: {\n            description: \"A relatively new cultivar, it was, the pretty boy baby, discovered in South Africa in the early 1990s by Mr. A.G. (Dries) Joubert. Maluma Babyy. It is a chance seedling of unknown parentage\",\n            shape: \"Oval\",\n            hardiness: \"1 \\xb0C\",\n            taste: \"Catchy, is an avocado\"\n        }\n    },\n    \"6trfgkkj\": {\n        name: \"Fuerte Avocado\",\n        id: \"6trfgkkj\",\n        sku: \"AX4M8SJV\",\n        price: 1.21,\n        image: \"/images/fuerte.jpg\",\n        attributes: {\n            description: \"The Fuerte avocado is the second largest commercial variety behind Hass. It is a long time California commercial variety valued for its winter season ripening and its B-Type blossom type which most growers plant adjacent to the Hass for a more consistent production cycle. This avocado tends to produce heavily in alternate years.\",\n            shape: \"Pear\",\n            hardiness: \"-1 \\xb0C\",\n            taste: \"Magnificent, is a strong avocado\"\n        }\n    },\n    \"7bcr49em\": {\n        name: \"Gwen Hass Avocado\",\n        id: \"7bcr49em\",\n        sku: \"HYA78F6J\",\n        price: 1.25,\n        image: \"/images/gwen.jpg\",\n        attributes: {\n            description: \"A seedling bred from 'Hass' x 'Thille' in 1982, 'Gwen' is higher yielding and more dwarfing than 'Hass' in California. The fruit has an oval shape, slightly smaller than 'Hass' (100–200 g or 3.5–7.1 oz), with a rich, nutty flavor. The skin texture is more finely pebbled than 'Hass', and is dull green when ripe. It is frost-hardy down to −1 \\xb0C (30 \\xb0F)\",\n            shape: \"Plump\",\n            hardiness: \"−1 \\xb0C\",\n            taste: \"Superb, is an avocado\"\n        }\n    },\n    \"098323ks\": {\n        name: \"Bacon Avocado\",\n        id: \"098323ks\",\n        sku: \"BXD100BLK\",\n        price: 1.51,\n        image: \"/images/bacon.jpg\",\n        attributes: {\n            description: \"Developed by a farmer, James Bacon, in 1954, Bacon has medium-sized fruit with smooth, green skin with yellow-green, light-tasting flesh. When ripe, the skin remains green, but darkens slightly, and fruit yields to gentle pressure. It is cold-hardy down to −5 \\xb0C (23 \\xb0F)\",\n            shape: \"Oval\",\n            hardiness: \"−5 \\xb0C\",\n            taste: \"Creamy, is an avocado\"\n        }\n    },\n    b8uthe2y: {\n        name: \"Hass Avocado\",\n        id: \"b8uthe2y\",\n        sku: \"RMRCZN7E\",\n        price: 1.39,\n        image: \"/images/hass.jpg\",\n        attributes: {\n            description: \"The 'Hass' is the most common cultivar of avocado. It produces fruit year-round and accounts for 80% of cultivated avocados in the world.[21][55] All 'Hass' trees are descended from a single 'mother tree' raised by a mail carrier named Rudolph Hass, of La Habra Heights, California.[20][55] Hass patented the productive tree in 1935. The 'mother tree', of uncertain subspecies, died of root rot and was cut down in September 2002.[21][55][56] 'Hass' trees have medium-sized (150–250 g or 5.3–8.8 oz), ovate fruit with a black, pebbled skin. The flesh has a nutty, rich flavor with 19% oil. A hybrid Guatemalan type can withstand temperatures to −1 \\xb0C (30 \\xb0F)\",\n            shape: \"Oval\",\n            hardiness: \"−1 \\xb0C\",\n            taste: \"Gorgeous, is an avocado\"\n        }\n    },\n    ewxsd6xb: {\n        name: \"Lamb Hass Avocado\",\n        id: \"ewxsd6xb\",\n        sku: \"N55229ZA\",\n        price: 1.34,\n        image: \"/images/lamb.jpg\",\n        attributes: {\n            description: \"The Lamb Hass avocado is a cross between a Hass and Gwen avocado. The fruits are larger in size and later maturing than Hass. It is gaining in popularity as a commercial and backyard variety due to its exceptional flavor and easy peeling qualities. The tree has an upright, compact habit.\",\n            shape: \"Obovate\",\n            hardiness: \"-2 \\xb0C\",\n            taste: \"Great, is an avocado\"\n        }\n    },\n    fpr72m9k: {\n        name: \"Pinkerton Avocado\",\n        id: \"fpr72m9k\",\n        sku: \"B4HZ42TM\",\n        price: 1.27,\n        image: \"/images/pinkerton.jpg\",\n        attributes: {\n            description: \"First grown on the Pinkerton Ranch in Saticoy, California, in the early 1970s, 'Pinkerton' is a seedling of 'Hass' x 'Rincon'. The large fruit has a small seed, and its green skin deepens in color as it ripens. The thick flesh has a smooth, creamy texture, pale green color, good flavor, and high oil content. It shows some cold tolerance, to −1 \\xb0C (30 \\xb0F) and bears consistently heavy crops. A hybrid Guatemalan type, it has excellent peeling characteristics\",\n            shape: \"Long pear\",\n            hardiness: \"−1 \\xb0C\",\n            taste: \"Marvelous, is an avocado\"\n        }\n    },\n    t9dv25gs: {\n        name: \"Reed Avocado\",\n        id: \"t9dv25gs\",\n        sku: \"ZY3T9XXC\",\n        price: 1.18,\n        image: \"/images/reed.jpg\",\n        attributes: {\n            description: \"Developed from a chance seedling found in 1948 by James S. Reed in California, this cultivar has large, round, green fruit with a smooth texture and dark, thick, glossy skin. Smooth and delicate, the flesh has a slightly nutty flavor. The skin ripens green. A Guatemalan type, it is hardy to −1 \\xb0C (30 \\xb0F). Tree size is about 5 by 4 m (16.4 by 13.1 ft)\",\n            shape: \"Round\",\n            hardiness: \"−1 \\xb0C\",\n            taste: \"Exquisite, is an avocado\"\n        }\n    },\n    t345w48y: {\n        name: \"Zutano Avocado\",\n        id: \"t345w48y\",\n        sku: \"MW79ZZ6Y\",\n        price: 1.25,\n        image: \"/images/zutano.jpg\",\n        attributes: {\n            description: \"The Zutano avocado is a cold hardy, consistent producing avocado variety. It resembles the Fuerte in appearance but is less flavorful but more cold hardy. The green fruits are obovate in shape with waxy bumps on the skin. The flesh has a low oil but high water content which causes it to have a more fibrous texture.\",\n            shape: \"Pear\",\n            hardiness: \"-5 \\xb0C\",\n            taste: \"Splendid, is an avocado\"\n        }\n    }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUFRLEVBQUU7UUFDUmIsSUFBSSxFQUFFLGNBQWM7UUFDcEJDLEVBQUUsRUFBRSxVQUFVO1FBQ2RDLEdBQUcsRUFBRSxVQUFVO1FBQ2ZDLEtBQUssRUFBRSxJQUFJO1FBQ1hDLEtBQUssRUFBRSxrQkFBa0I7UUFDekJDLFVBQVUsRUFBRTtZQUNWQyxXQUFXLEVBQ1Qsd1dBQWtXO1lBQ3BXQyxLQUFLLEVBQUUsT0FBTztZQUNkQyxTQUFTLEVBQUUsVUFBTztZQUNsQkMsS0FBSyxFQUFFLDBCQUEwQjtTQUNsQztLQUNGO0lBQ0RLLFFBQVEsRUFBRTtRQUNSZCxJQUFJLEVBQUUsZ0JBQWdCO1FBQ3RCQyxFQUFFLEVBQUUsVUFBVTtRQUNkQyxHQUFHLEVBQUUsVUFBVTtRQUNmQyxLQUFLLEVBQUUsSUFBSTtRQUNYQyxLQUFLLEVBQUUsb0JBQW9CO1FBQzNCQyxVQUFVLEVBQUU7WUFDVkMsV0FBVyxFQUNULDhUQUE4VDtZQUNoVUMsS0FBSyxFQUFFLE1BQU07WUFDYkMsU0FBUyxFQUFFLFVBQU87WUFDbEJDLEtBQUssRUFBRSx5QkFBeUI7U0FDakM7S0FDRjtDQUNGO0FBRUQsaUVBQWVWLElBQUkiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wcm9qZWN0LW5leHRqcy8uL2RhdGFiYXNlL2RhdGEuanM/ZmEyZSJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBkYXRhID17XHJcbiAgJzJ6ZDMzYjhjJzoge1xyXG4gICAgbmFtZTogJ01hbHVtYSBIYXNzIEF2b2NhZG8nLFxyXG4gICAgaWQ6ICcyemQzM2I4YycsXHJcbiAgICBza3U6ICdOVVI3MktDTScsXHJcbiAgICBwcmljZTogMS4xNSxcclxuICAgIGltYWdlOiAnL2ltYWdlcy9tYWx1bWEuanBnJyxcclxuICAgIGF0dHJpYnV0ZXM6IHtcclxuICAgICAgZGVzY3JpcHRpb246XHJcbiAgICAgICAgJ0EgcmVsYXRpdmVseSBuZXcgY3VsdGl2YXIsIGl0IHdhcywgdGhlIHByZXR0eSBib3kgYmFieSwgZGlzY292ZXJlZCBpbiBTb3V0aCBBZnJpY2EgaW4gdGhlIGVhcmx5IDE5OTBzIGJ5IE1yLiBBLkcuIChEcmllcykgSm91YmVydC4gTWFsdW1hIEJhYnl5LiBJdCBpcyBhIGNoYW5jZSBzZWVkbGluZyBvZiB1bmtub3duIHBhcmVudGFnZScsXHJcbiAgICAgIHNoYXBlOiAnT3ZhbCcsXHJcbiAgICAgIGhhcmRpbmVzczogJzEgwrBDJyxcclxuICAgICAgdGFzdGU6ICdDYXRjaHksIGlzIGFuIGF2b2NhZG8nLFxyXG4gICAgfSxcclxuICB9LFxyXG4gICc2dHJmZ2traic6IHtcclxuICAgIG5hbWU6ICdGdWVydGUgQXZvY2FkbycsXHJcbiAgICBpZDogJzZ0cmZna2tqJyxcclxuICAgIHNrdTogJ0FYNE04U0pWJyxcclxuICAgIHByaWNlOiAxLjIxLFxyXG4gICAgaW1hZ2U6ICcvaW1hZ2VzL2Z1ZXJ0ZS5qcGcnLFxyXG4gICAgYXR0cmlidXRlczoge1xyXG4gICAgICBkZXNjcmlwdGlvbjpcclxuICAgICAgICAnVGhlIEZ1ZXJ0ZSBhdm9jYWRvIGlzIHRoZSBzZWNvbmQgbGFyZ2VzdCBjb21tZXJjaWFsIHZhcmlldHkgYmVoaW5kIEhhc3MuIEl0IGlzIGEgbG9uZyB0aW1lIENhbGlmb3JuaWEgY29tbWVyY2lhbCB2YXJpZXR5IHZhbHVlZCBmb3IgaXRzIHdpbnRlciBzZWFzb24gcmlwZW5pbmcgYW5kIGl0cyBCLVR5cGUgYmxvc3NvbSB0eXBlIHdoaWNoIG1vc3QgZ3Jvd2VycyBwbGFudCBhZGphY2VudCB0byB0aGUgSGFzcyBmb3IgYSBtb3JlIGNvbnNpc3RlbnQgcHJvZHVjdGlvbiBjeWNsZS4gVGhpcyBhdm9jYWRvIHRlbmRzIHRvIHByb2R1Y2UgaGVhdmlseSBpbiBhbHRlcm5hdGUgeWVhcnMuJyxcclxuICAgICAgc2hhcGU6ICdQZWFyJyxcclxuICAgICAgaGFyZGluZXNzOiAnLTEgwrBDJyxcclxuICAgICAgdGFzdGU6ICdNYWduaWZpY2VudCwgaXMgYSBzdHJvbmcgYXZvY2FkbycsXHJcbiAgICB9LFxyXG4gIH0sXHJcbiAgJzdiY3I0OWVtJzoge1xyXG4gICAgbmFtZTogJ0d3ZW4gSGFzcyBBdm9jYWRvJyxcclxuICAgIGlkOiAnN2JjcjQ5ZW0nLFxyXG4gICAgc2t1OiAnSFlBNzhGNkonLFxyXG4gICAgcHJpY2U6IDEuMjUsXHJcbiAgICBpbWFnZTogJy9pbWFnZXMvZ3dlbi5qcGcnLFxyXG4gICAgYXR0cmlidXRlczoge1xyXG4gICAgICBkZXNjcmlwdGlvbjpcclxuICAgICAgICBcIkEgc2VlZGxpbmcgYnJlZCBmcm9tICdIYXNzJyB4ICdUaGlsbGUnIGluIDE5ODIsICdHd2VuJyBpcyBoaWdoZXIgeWllbGRpbmcgYW5kIG1vcmUgZHdhcmZpbmcgdGhhbiAnSGFzcycgaW4gQ2FsaWZvcm5pYS4gVGhlIGZydWl0IGhhcyBhbiBvdmFsIHNoYXBlLCBzbGlnaHRseSBzbWFsbGVyIHRoYW4gJ0hhc3MnICgxMDDigJMyMDAgZyBvciAzLjXigJM3LjEgb3opLCB3aXRoIGEgcmljaCwgbnV0dHkgZmxhdm9yLiBUaGUgc2tpbiB0ZXh0dXJlIGlzIG1vcmUgZmluZWx5IHBlYmJsZWQgdGhhbiAnSGFzcycsIGFuZCBpcyBkdWxsIGdyZWVuIHdoZW4gcmlwZS4gSXQgaXMgZnJvc3QtaGFyZHkgZG93biB0byDiiJIxIMKwQyAoMzAgwrBGKVwiLFxyXG4gICAgICBzaGFwZTogJ1BsdW1wJyxcclxuICAgICAgaGFyZGluZXNzOiAn4oiSMSDCsEMnLFxyXG4gICAgICB0YXN0ZTogJ1N1cGVyYiwgaXMgYW4gYXZvY2FkbycsXHJcbiAgICB9LFxyXG4gIH0sXHJcbiAgJzA5ODMyM2tzJzoge1xyXG4gICAgbmFtZTogJ0JhY29uIEF2b2NhZG8nLFxyXG4gICAgaWQ6ICcwOTgzMjNrcycsXHJcbiAgICBza3U6ICdCWEQxMDBCTEsnLFxyXG4gICAgcHJpY2U6IDEuNTEsXHJcbiAgICBpbWFnZTogJy9pbWFnZXMvYmFjb24uanBnJyxcclxuICAgIGF0dHJpYnV0ZXM6IHtcclxuICAgICAgZGVzY3JpcHRpb246XHJcbiAgICAgICAgJ0RldmVsb3BlZCBieSBhIGZhcm1lciwgSmFtZXMgQmFjb24sIGluIDE5NTQsIEJhY29uIGhhcyBtZWRpdW0tc2l6ZWQgZnJ1aXQgd2l0aCBzbW9vdGgsIGdyZWVuIHNraW4gd2l0aCB5ZWxsb3ctZ3JlZW4sIGxpZ2h0LXRhc3RpbmcgZmxlc2guIFdoZW4gcmlwZSwgdGhlIHNraW4gcmVtYWlucyBncmVlbiwgYnV0IGRhcmtlbnMgc2xpZ2h0bHksIGFuZCBmcnVpdCB5aWVsZHMgdG8gZ2VudGxlIHByZXNzdXJlLiBJdCBpcyBjb2xkLWhhcmR5IGRvd24gdG8g4oiSNSDCsEMgKDIzIMKwRiknLFxyXG4gICAgICBzaGFwZTogJ092YWwnLFxyXG4gICAgICBoYXJkaW5lc3M6ICfiiJI1IMKwQycsXHJcbiAgICAgIHRhc3RlOiAnQ3JlYW15LCBpcyBhbiBhdm9jYWRvJyxcclxuICAgIH0sXHJcbiAgfSxcclxuICBiOHV0aGUyeToge1xyXG4gICAgbmFtZTogJ0hhc3MgQXZvY2FkbycsXHJcbiAgICBpZDogJ2I4dXRoZTJ5JyxcclxuICAgIHNrdTogJ1JNUkNaTjdFJyxcclxuICAgIHByaWNlOiAxLjM5LFxyXG4gICAgaW1hZ2U6ICcvaW1hZ2VzL2hhc3MuanBnJyxcclxuICAgIGF0dHJpYnV0ZXM6IHtcclxuICAgICAgZGVzY3JpcHRpb246XHJcbiAgICAgICAgXCJUaGUgJ0hhc3MnIGlzIHRoZSBtb3N0IGNvbW1vbiBjdWx0aXZhciBvZiBhdm9jYWRvLiBJdCBwcm9kdWNlcyBmcnVpdCB5ZWFyLXJvdW5kIGFuZCBhY2NvdW50cyBmb3IgODAlIG9mIGN1bHRpdmF0ZWQgYXZvY2Fkb3MgaW4gdGhlIHdvcmxkLlsyMV1bNTVdIEFsbCAnSGFzcycgdHJlZXMgYXJlIGRlc2NlbmRlZCBmcm9tIGEgc2luZ2xlICdtb3RoZXIgdHJlZScgcmFpc2VkIGJ5IGEgbWFpbCBjYXJyaWVyIG5hbWVkIFJ1ZG9scGggSGFzcywgb2YgTGEgSGFicmEgSGVpZ2h0cywgQ2FsaWZvcm5pYS5bMjBdWzU1XSBIYXNzIHBhdGVudGVkIHRoZSBwcm9kdWN0aXZlIHRyZWUgaW4gMTkzNS4gVGhlICdtb3RoZXIgdHJlZScsIG9mIHVuY2VydGFpbiBzdWJzcGVjaWVzLCBkaWVkIG9mIHJvb3Qgcm90IGFuZCB3YXMgY3V0IGRvd24gaW4gU2VwdGVtYmVyIDIwMDIuWzIxXVs1NV1bNTZdICdIYXNzJyB0cmVlcyBoYXZlIG1lZGl1bS1zaXplZCAoMTUw4oCTMjUwIGcgb3IgNS4z4oCTOC44IG96KSwgb3ZhdGUgZnJ1aXQgd2l0aCBhIGJsYWNrLCBwZWJibGVkIHNraW4uIFRoZSBmbGVzaCBoYXMgYSBudXR0eSwgcmljaCBmbGF2b3Igd2l0aCAxOSUgb2lsLiBBIGh5YnJpZCBHdWF0ZW1hbGFuIHR5cGUgY2FuIHdpdGhzdGFuZCB0ZW1wZXJhdHVyZXMgdG8g4oiSMSDCsEMgKDMwIMKwRilcIixcclxuICAgICAgc2hhcGU6ICdPdmFsJyxcclxuICAgICAgaGFyZGluZXNzOiAn4oiSMSDCsEMnLFxyXG4gICAgICB0YXN0ZTogJ0dvcmdlb3VzLCBpcyBhbiBhdm9jYWRvJyxcclxuICAgIH0sXHJcbiAgfSxcclxuICBld3hzZDZ4Yjoge1xyXG4gICAgbmFtZTogJ0xhbWIgSGFzcyBBdm9jYWRvJyxcclxuICAgIGlkOiAnZXd4c2Q2eGInLFxyXG4gICAgc2t1OiAnTjU1MjI5WkEnLFxyXG4gICAgcHJpY2U6IDEuMzQsXHJcbiAgICBpbWFnZTogJy9pbWFnZXMvbGFtYi5qcGcnLFxyXG4gICAgYXR0cmlidXRlczoge1xyXG4gICAgICBkZXNjcmlwdGlvbjpcclxuICAgICAgICAnVGhlIExhbWIgSGFzcyBhdm9jYWRvIGlzIGEgY3Jvc3MgYmV0d2VlbiBhIEhhc3MgYW5kIEd3ZW4gYXZvY2Fkby4gVGhlIGZydWl0cyBhcmUgbGFyZ2VyIGluIHNpemUgYW5kIGxhdGVyIG1hdHVyaW5nIHRoYW4gSGFzcy4gSXQgaXMgZ2FpbmluZyBpbiBwb3B1bGFyaXR5IGFzIGEgY29tbWVyY2lhbCBhbmQgYmFja3lhcmQgdmFyaWV0eSBkdWUgdG8gaXRzIGV4Y2VwdGlvbmFsIGZsYXZvciBhbmQgZWFzeSBwZWVsaW5nIHF1YWxpdGllcy4gVGhlIHRyZWUgaGFzIGFuIHVwcmlnaHQsIGNvbXBhY3QgaGFiaXQuJyxcclxuICAgICAgc2hhcGU6ICdPYm92YXRlJyxcclxuICAgICAgaGFyZGluZXNzOiAnLTIgwrBDJyxcclxuICAgICAgdGFzdGU6ICdHcmVhdCwgaXMgYW4gYXZvY2FkbycsXHJcbiAgICB9LFxyXG4gIH0sXHJcbiAgZnByNzJtOWs6IHtcclxuICAgIG5hbWU6ICdQaW5rZXJ0b24gQXZvY2FkbycsXHJcbiAgICBpZDogJ2ZwcjcybTlrJyxcclxuICAgIHNrdTogJ0I0SFo0MlRNJyxcclxuICAgIHByaWNlOiAxLjI3LFxyXG4gICAgaW1hZ2U6ICcvaW1hZ2VzL3BpbmtlcnRvbi5qcGcnLFxyXG4gICAgYXR0cmlidXRlczoge1xyXG4gICAgICBkZXNjcmlwdGlvbjpcclxuICAgICAgICBcIkZpcnN0IGdyb3duIG9uIHRoZSBQaW5rZXJ0b24gUmFuY2ggaW4gU2F0aWNveSwgQ2FsaWZvcm5pYSwgaW4gdGhlIGVhcmx5IDE5NzBzLCAnUGlua2VydG9uJyBpcyBhIHNlZWRsaW5nIG9mICdIYXNzJyB4ICdSaW5jb24nLiBUaGUgbGFyZ2UgZnJ1aXQgaGFzIGEgc21hbGwgc2VlZCwgYW5kIGl0cyBncmVlbiBza2luIGRlZXBlbnMgaW4gY29sb3IgYXMgaXQgcmlwZW5zLiBUaGUgdGhpY2sgZmxlc2ggaGFzIGEgc21vb3RoLCBjcmVhbXkgdGV4dHVyZSwgcGFsZSBncmVlbiBjb2xvciwgZ29vZCBmbGF2b3IsIGFuZCBoaWdoIG9pbCBjb250ZW50LiBJdCBzaG93cyBzb21lIGNvbGQgdG9sZXJhbmNlLCB0byDiiJIxIMKwQyAoMzAgwrBGKSBhbmQgYmVhcnMgY29uc2lzdGVudGx5IGhlYXZ5IGNyb3BzLiBBIGh5YnJpZCBHdWF0ZW1hbGFuIHR5cGUsIGl0IGhhcyBleGNlbGxlbnQgcGVlbGluZyBjaGFyYWN0ZXJpc3RpY3NcIixcclxuICAgICAgc2hhcGU6ICdMb25nIHBlYXInLFxyXG4gICAgICBoYXJkaW5lc3M6ICfiiJIxIMKwQycsXHJcbiAgICAgIHRhc3RlOiAnTWFydmVsb3VzLCBpcyBhbiBhdm9jYWRvJyxcclxuICAgIH0sXHJcbiAgfSxcclxuICB0OWR2MjVnczoge1xyXG4gICAgbmFtZTogJ1JlZWQgQXZvY2FkbycsXHJcbiAgICBpZDogJ3Q5ZHYyNWdzJyxcclxuICAgIHNrdTogJ1pZM1Q5WFhDJyxcclxuICAgIHByaWNlOiAxLjE4LFxyXG4gICAgaW1hZ2U6ICcvaW1hZ2VzL3JlZWQuanBnJyxcclxuICAgIGF0dHJpYnV0ZXM6IHtcclxuICAgICAgZGVzY3JpcHRpb246XHJcbiAgICAgICAgJ0RldmVsb3BlZCBmcm9tIGEgY2hhbmNlIHNlZWRsaW5nIGZvdW5kIGluIDE5NDggYnkgSmFtZXMgUy4gUmVlZCBpbiBDYWxpZm9ybmlhLCB0aGlzIGN1bHRpdmFyIGhhcyBsYXJnZSwgcm91bmQsIGdyZWVuIGZydWl0IHdpdGggYSBzbW9vdGggdGV4dHVyZSBhbmQgZGFyaywgdGhpY2ssIGdsb3NzeSBza2luLiBTbW9vdGggYW5kIGRlbGljYXRlLCB0aGUgZmxlc2ggaGFzIGEgc2xpZ2h0bHkgbnV0dHkgZmxhdm9yLiBUaGUgc2tpbiByaXBlbnMgZ3JlZW4uIEEgR3VhdGVtYWxhbiB0eXBlLCBpdCBpcyBoYXJkeSB0byDiiJIxIMKwQyAoMzAgwrBGKS4gVHJlZSBzaXplIGlzIGFib3V0IDUgYnkgNCBtICgxNi40IGJ5IDEzLjEgZnQpJyxcclxuICAgICAgc2hhcGU6ICdSb3VuZCcsXHJcbiAgICAgIGhhcmRpbmVzczogJ+KIkjEgwrBDJyxcclxuICAgICAgdGFzdGU6ICdFeHF1aXNpdGUsIGlzIGFuIGF2b2NhZG8nLFxyXG4gICAgfSxcclxuICB9LFxyXG4gIHQzNDV3NDh5OiB7XHJcbiAgICBuYW1lOiAnWnV0YW5vIEF2b2NhZG8nLFxyXG4gICAgaWQ6ICd0MzQ1dzQ4eScsXHJcbiAgICBza3U6ICdNVzc5Wlo2WScsXHJcbiAgICBwcmljZTogMS4yNSxcclxuICAgIGltYWdlOiAnL2ltYWdlcy96dXRhbm8uanBnJyxcclxuICAgIGF0dHJpYnV0ZXM6IHtcclxuICAgICAgZGVzY3JpcHRpb246XHJcbiAgICAgICAgJ1RoZSBadXRhbm8gYXZvY2FkbyBpcyBhIGNvbGQgaGFyZHksIGNvbnNpc3RlbnQgcHJvZHVjaW5nIGF2b2NhZG8gdmFyaWV0eS4gSXQgcmVzZW1ibGVzIHRoZSBGdWVydGUgaW4gYXBwZWFyYW5jZSBidXQgaXMgbGVzcyBmbGF2b3JmdWwgYnV0IG1vcmUgY29sZCBoYXJkeS4gVGhlIGdyZWVuIGZydWl0cyBhcmUgb2JvdmF0ZSBpbiBzaGFwZSB3aXRoIHdheHkgYnVtcHMgb24gdGhlIHNraW4uIFRoZSBmbGVzaCBoYXMgYSBsb3cgb2lsIGJ1dCBoaWdoIHdhdGVyIGNvbnRlbnQgd2hpY2ggY2F1c2VzIGl0IHRvIGhhdmUgYSBtb3JlIGZpYnJvdXMgdGV4dHVyZS4nLFxyXG4gICAgICBzaGFwZTogJ1BlYXInLFxyXG4gICAgICBoYXJkaW5lc3M6ICctNSDCsEMnLFxyXG4gICAgICB0YXN0ZTogJ1NwbGVuZGlkLCBpcyBhbiBhdm9jYWRvJyxcclxuICAgIH0sXHJcbiAgfSxcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgZGF0YSJdLCJuYW1lcyI6WyJkYXRhIiwibmFtZSIsImlkIiwic2t1IiwicHJpY2UiLCJpbWFnZSIsImF0dHJpYnV0ZXMiLCJkZXNjcmlwdGlvbiIsInNoYXBlIiwiaGFyZGluZXNzIiwidGFzdGUiLCJiOHV0aGUyeSIsImV3eHNkNnhiIiwiZnByNzJtOWsiLCJ0OWR2MjVncyIsInQzNDV3NDh5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./database/data.js\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ avo)
-});
+/***/ }),
 
-;// CONCATENATED MODULE: ./database/data.js
-const data = {
-    "2zd33b8c": {
-        name: "Maluma Hass Avocado",
-        id: "2zd33b8c",
-        sku: "NUR72KCM",
-        price: 1.15,
-        image: "/images/maluma.jpg",
-        attributes: {
-            description: "A relatively new cultivar, it was, the pretty boy baby, discovered in South Africa in the early 1990s by Mr. A.G. (Dries) Joubert. Maluma Babyy. It is a chance seedling of unknown parentage",
-            shape: "Oval",
-            hardiness: "1 \xb0C",
-            taste: "Catchy, is an avocado"
-        }
-    },
-    "6trfgkkj": {
-        name: "Fuerte Avocado",
-        id: "6trfgkkj",
-        sku: "AX4M8SJV",
-        price: 1.21,
-        image: "/images/fuerte.jpg",
-        attributes: {
-            description: "The Fuerte avocado is the second largest commercial variety behind Hass. It is a long time California commercial variety valued for its winter season ripening and its B-Type blossom type which most growers plant adjacent to the Hass for a more consistent production cycle. This avocado tends to produce heavily in alternate years.",
-            shape: "Pear",
-            hardiness: "-1 \xb0C",
-            taste: "Magnificent, is a strong avocado"
-        }
-    },
-    "7bcr49em": {
-        name: "Gwen Hass Avocado",
-        id: "7bcr49em",
-        sku: "HYA78F6J",
-        price: 1.25,
-        image: "/images/gwen.jpg",
-        attributes: {
-            description: "A seedling bred from 'Hass' x 'Thille' in 1982, 'Gwen' is higher yielding and more dwarfing than 'Hass' in California. The fruit has an oval shape, slightly smaller than 'Hass' (100–200 g or 3.5–7.1 oz), with a rich, nutty flavor. The skin texture is more finely pebbled than 'Hass', and is dull green when ripe. It is frost-hardy down to −1 \xb0C (30 \xb0F)",
-            shape: "Plump",
-            hardiness: "−1 \xb0C",
-            taste: "Superb, is an avocado"
-        }
-    },
-    "098323ks": {
-        name: "Bacon Avocado",
-        id: "098323ks",
-        sku: "BXD100BLK",
-        price: 1.51,
-        image: "/images/bacon.jpg",
-        attributes: {
-            description: "Developed by a farmer, James Bacon, in 1954, Bacon has medium-sized fruit with smooth, green skin with yellow-green, light-tasting flesh. When ripe, the skin remains green, but darkens slightly, and fruit yields to gentle pressure. It is cold-hardy down to −5 \xb0C (23 \xb0F)",
-            shape: "Oval",
-            hardiness: "−5 \xb0C",
-            taste: "Creamy, is an avocado"
-        }
-    },
-    b8uthe2y: {
-        name: "Hass Avocado",
-        id: "b8uthe2y",
-        sku: "RMRCZN7E",
-        price: 1.39,
-        image: "/images/hass.jpg",
-        attributes: {
-            description: "The 'Hass' is the most common cultivar of avocado. It produces fruit year-round and accounts for 80% of cultivated avocados in the world.[21][55] All 'Hass' trees are descended from a single 'mother tree' raised by a mail carrier named Rudolph Hass, of La Habra Heights, California.[20][55] Hass patented the productive tree in 1935. The 'mother tree', of uncertain subspecies, died of root rot and was cut down in September 2002.[21][55][56] 'Hass' trees have medium-sized (150–250 g or 5.3–8.8 oz), ovate fruit with a black, pebbled skin. The flesh has a nutty, rich flavor with 19% oil. A hybrid Guatemalan type can withstand temperatures to −1 \xb0C (30 \xb0F)",
-            shape: "Oval",
-            hardiness: "−1 \xb0C",
-            taste: "Gorgeous, is an avocado"
-        }
-    },
-    ewxsd6xb: {
-        name: "Lamb Hass Avocado",
-        id: "ewxsd6xb",
-        sku: "N55229ZA",
-        price: 1.34,
-        image: "/images/lamb.jpg",
-        attributes: {
-            description: "The Lamb Hass avocado is a cross between a Hass and Gwen avocado. The fruits are larger in size and later maturing than Hass. It is gaining in popularity as a commercial and backyard variety due to its exceptional flavor and easy peeling qualities. The tree has an upright, compact habit.",
-            shape: "Obovate",
-            hardiness: "-2 \xb0C",
-            taste: "Great, is an avocado"
-        }
-    },
-    fpr72m9k: {
-        name: "Pinkerton Avocado",
-        id: "fpr72m9k",
-        sku: "B4HZ42TM",
-        price: 1.27,
-        image: "/images/pinkerton.jpg",
-        attributes: {
-            description: "First grown on the Pinkerton Ranch in Saticoy, California, in the early 1970s, 'Pinkerton' is a seedling of 'Hass' x 'Rincon'. The large fruit has a small seed, and its green skin deepens in color as it ripens. The thick flesh has a smooth, creamy texture, pale green color, good flavor, and high oil content. It shows some cold tolerance, to −1 \xb0C (30 \xb0F) and bears consistently heavy crops. A hybrid Guatemalan type, it has excellent peeling characteristics",
-            shape: "Long pear",
-            hardiness: "−1 \xb0C",
-            taste: "Marvelous, is an avocado"
-        }
-    },
-    t9dv25gs: {
-        name: "Reed Avocado",
-        id: "t9dv25gs",
-        sku: "ZY3T9XXC",
-        price: 1.18,
-        image: "/images/reed.jpg",
-        attributes: {
-            description: "Developed from a chance seedling found in 1948 by James S. Reed in California, this cultivar has large, round, green fruit with a smooth texture and dark, thick, glossy skin. Smooth and delicate, the flesh has a slightly nutty flavor. The skin ripens green. A Guatemalan type, it is hardy to −1 \xb0C (30 \xb0F). Tree size is about 5 by 4 m (16.4 by 13.1 ft)",
-            shape: "Round",
-            hardiness: "−1 \xb0C",
-            taste: "Exquisite, is an avocado"
-        }
-    },
-    t345w48y: {
-        name: "Zutano Avocado",
-        id: "t345w48y",
-        sku: "MW79ZZ6Y",
-        price: 1.25,
-        image: "/images/zutano.jpg",
-        attributes: {
-            description: "The Zutano avocado is a cold hardy, consistent producing avocado variety. It resembles the Fuerte in appearance but is less flavorful but more cold hardy. The green fruits are obovate in shape with waxy bumps on the skin. The flesh has a low oil but high water content which causes it to have a more fibrous texture.",
-            shape: "Pear",
-            hardiness: "-5 \xb0C",
-            taste: "Splendid, is an avocado"
-        }
-    }
-};
-/* harmony default export */ const database_data = (data);
+/***/ "(api)/./database/db.js":
+/*!************************!*\
+  !*** ./database/db.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-;// CONCATENATED MODULE: ./database/db.js
-//db.js
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data */ \"(api)/./database/data.js\");\n//db.js\n\n// Estoy utilizando un objeto llamado Database para seguir simulando un ambiente llamando la base de datos.\nconst Database = {};\nDatabase.getAll = async ()=>{\n    const asArray = Object.values(_data__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n    await randomDelay();\n    return asArray;\n};\nDatabase.getById = async (id)=>{\n    const entry = _data__WEBPACK_IMPORTED_MODULE_0__[\"default\"][id];\n    await randomDelay();\n    return entry;\n};\n// Modifique el tiempo del delay para simular el tiempo de espera\n// Tardara entre 1 a 4 segundos\nconst randomDelay = ()=>{\n    return new Promise((resolve)=>{\n        const delay = Math.floor(Math.random() * 4000) + 1000;\n        setTimeout(resolve, delay);\n    });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Database);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9kYXRhYmFzZS9kYi5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFBLE9BQU87QUFDbUI7QUFFMUIsMkdBQTJHO0FBQzNHLE1BQU1DLFFBQVEsR0FBRyxFQUFFO0FBRW5CQSxRQUFRLENBQUNDLE1BQU0sR0FBRyxVQUFZO0lBQzVCLE1BQU1DLE9BQU8sR0FBR0MsTUFBTSxDQUFDQyxNQUFNLENBQUNMLDZDQUFJLENBQUM7SUFDbkMsTUFBTU0sV0FBVyxFQUFFLENBQUM7SUFDcEIsT0FBT0gsT0FBTyxDQUFDO0NBQ2hCLENBQUM7QUFFRkYsUUFBUSxDQUFDTSxPQUFPLEdBQUcsT0FBT0MsRUFBRSxHQUFLO0lBQy9CLE1BQU1DLEtBQUssR0FBR1QsNkNBQUksQ0FBQ1EsRUFBRSxDQUFDO0lBQ3RCLE1BQU1GLFdBQVcsRUFBRSxDQUFDO0lBQ3BCLE9BQU9HLEtBQUssQ0FBQztDQUNkLENBQUM7QUFFRixpRUFBaUU7QUFDakUsK0JBQStCO0FBQy9CLE1BQU1ILFdBQVcsR0FBRyxJQUFNO0lBQ3hCLE9BQU8sSUFBSUksT0FBTyxDQUFDLENBQUNDLE9BQU8sR0FBSztRQUM5QixNQUFNQyxLQUFLLEdBQUdDLElBQUksQ0FBQ0MsS0FBSyxDQUFDRCxJQUFJLENBQUNFLE1BQU0sRUFBRSxHQUFHLElBQUksQ0FBQyxHQUFHLElBQUk7UUFDckRDLFVBQVUsQ0FBQ0wsT0FBTyxFQUFFQyxLQUFLLENBQUMsQ0FBQztLQUM1QixDQUFDLENBQUM7Q0FDSjtBQUVELGlFQUFlWCxRQUFRLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wcm9qZWN0LW5leHRqcy8uL2RhdGFiYXNlL2RiLmpzPzY0YTQiXSwic291cmNlc0NvbnRlbnQiOlsiLy9kYi5qc1xyXG5pbXBvcnQgZGF0YSBmcm9tICcuL2RhdGEnO1xyXG5cclxuLy8gRXN0b3kgdXRpbGl6YW5kbyB1biBvYmpldG8gbGxhbWFkbyBEYXRhYmFzZSBwYXJhIHNlZ3VpciBzaW11bGFuZG8gdW4gYW1iaWVudGUgbGxhbWFuZG8gbGEgYmFzZSBkZSBkYXRvcy5cclxuY29uc3QgRGF0YWJhc2UgPSB7fTtcclxuXHJcbkRhdGFiYXNlLmdldEFsbCA9IGFzeW5jICgpID0+IHtcclxuICBjb25zdCBhc0FycmF5ID0gT2JqZWN0LnZhbHVlcyhkYXRhKTtcclxuICBhd2FpdCByYW5kb21EZWxheSgpO1xyXG4gIHJldHVybiBhc0FycmF5O1xyXG59O1xyXG5cclxuRGF0YWJhc2UuZ2V0QnlJZCA9IGFzeW5jIChpZCkgPT4ge1xyXG4gIGNvbnN0IGVudHJ5ID0gZGF0YVtpZF07XHJcbiAgYXdhaXQgcmFuZG9tRGVsYXkoKTtcclxuICByZXR1cm4gZW50cnk7XHJcbn07XHJcblxyXG4vLyBNb2RpZmlxdWUgZWwgdGllbXBvIGRlbCBkZWxheSBwYXJhIHNpbXVsYXIgZWwgdGllbXBvIGRlIGVzcGVyYVxyXG4vLyBUYXJkYXJhIGVudHJlIDEgYSA0IHNlZ3VuZG9zXHJcbmNvbnN0IHJhbmRvbURlbGF5ID0gKCkgPT4ge1xyXG4gIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4ge1xyXG4gICAgY29uc3QgZGVsYXkgPSBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiA0MDAwKSArIDEwMDA7XHJcbiAgICBzZXRUaW1lb3V0KHJlc29sdmUsIGRlbGF5KTtcclxuICB9KTtcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IERhdGFiYXNlOyJdLCJuYW1lcyI6WyJkYXRhIiwiRGF0YWJhc2UiLCJnZXRBbGwiLCJhc0FycmF5IiwiT2JqZWN0IiwidmFsdWVzIiwicmFuZG9tRGVsYXkiLCJnZXRCeUlkIiwiaWQiLCJlbnRyeSIsIlByb21pc2UiLCJyZXNvbHZlIiwiZGVsYXkiLCJNYXRoIiwiZmxvb3IiLCJyYW5kb20iLCJzZXRUaW1lb3V0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./database/db.js\n");
 
-// Estoy utilizando un objeto llamado Database para seguir simulando un ambiente llamando la base de datos.
-const Database = {};
-Database.getAll = async ()=>{
-    const asArray = Object.values(database_data);
-    await randomDelay();
-    return asArray;
-};
-Database.getById = async (id)=>{
-    const entry = database_data[id];
-    await randomDelay();
-    return entry;
-};
-// Modifique el tiempo del delay para simular el tiempo de espera
-// Tardara entre 1 a 4 segundos
-const randomDelay = ()=>{
-    return new Promise((resolve)=>{
-        const delay = Math.floor(Math.random() * 4000) + 1000;
-        setTimeout(resolve, delay);
-    });
-};
-/* harmony default export */ const db = (Database);
+/***/ }),
 
-;// CONCATENATED MODULE: ./pages/api/avo/index.js
+/***/ "(api)/./pages/api/avo/index.js":
+/*!********************************!*\
+  !*** ./pages/api/avo/index.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-const allAvos = async (req, res)=>{
-    const data = await db.getAll();
-    res.status(200).json({
-        data
-    });
-};
-/* harmony default export */ const avo = (allAvos);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _database_db__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../database/db */ \"(api)/./database/db.js\");\n\nconst allAvos = async (req, res)=>{\n    const data = await _database_db__WEBPACK_IMPORTED_MODULE_0__[\"default\"].getAll();\n    res.status(200).json({\n        data\n    });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (allAvos);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvYXZvL2luZGV4LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQTRDO0FBRTVDLE1BQU1DLE9BQU8sR0FBRyxPQUFPQyxHQUFHLEVBQUVDLEdBQUcsR0FBSztJQUNsQyxNQUFNQyxJQUFJLEdBQUcsTUFBTUosMkRBQWUsRUFBRTtJQUNwQ0csR0FBRyxDQUFDRyxNQUFNLENBQUMsR0FBRyxDQUFDLENBQUNDLElBQUksQ0FBQztRQUFFSCxJQUFJO0tBQUUsQ0FBQyxDQUFDO0NBQ2hDO0FBRUQsaUVBQWVILE9BQU8sRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3Byb2plY3QtbmV4dGpzLy4vcGFnZXMvYXBpL2F2by9pbmRleC5qcz9hODdiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEYXRhYmFzZSBmcm9tICcuLi8uLi8uLi9kYXRhYmFzZS9kYic7XHJcblxyXG5jb25zdCBhbGxBdm9zID0gYXN5bmMgKHJlcSwgcmVzKSA9PiB7XHJcbiAgY29uc3QgZGF0YSA9IGF3YWl0IERhdGFiYXNlLmdldEFsbCgpO1xyXG4gIHJlcy5zdGF0dXMoMjAwKS5qc29uKHsgZGF0YSB9KTtcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGFsbEF2b3M7Il0sIm5hbWVzIjpbIkRhdGFiYXNlIiwiYWxsQXZvcyIsInJlcSIsInJlcyIsImRhdGEiLCJnZXRBbGwiLCJzdGF0dXMiLCJqc29uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./pages/api/avo/index.js\n");
 
 /***/ })
 
@@ -183,7 +50,7 @@ const allAvos = async (req, res)=>{
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(316));
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/avo/index.js"));
 module.exports = __webpack_exports__;
 
 })();
